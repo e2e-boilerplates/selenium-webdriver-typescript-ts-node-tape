@@ -1,17 +1,15 @@
 {
-  "name": "selenium-webdriver-es6modules-typescript-tsnode-jasmine",
+  "name": "selenium-webdriver-typescript-ts-node-tape",
   "version": "1.0.0",
-  "description": "selenium-webdriver end-to-end test automation boilerplate project. Using ES6 modules, TypeScript, and jasmine.",
+  "description": "selenium-webdriver end-to-end test automation boilerplate, using TypeScript, ts-node and Tape.",
   "devDependencies": {
-    "@types/jasmine": "3.5.2",
     "@types/node": "12.12.26",
     "@types/selenium-webdriver": "4.0.6",
+    "@types/tape": "^4.2.33",
     "chromedriver": "79.0.2",
     "husky": "4.2.1",
-    "jasmine": "3.5.0",
     "lint-staged": "10.0.7",
     "prettier": "1.19.1",
-    "puppeteer": "2.1.0",
     "selenium-webdriver": "4.0.0-alpha.5",
     "ts-node": "8.6.2",
     "tslint": "5.20.1",
@@ -21,16 +19,17 @@
   "scripts": {
     "pretty": "prettier --no-config './spec/*.ts' --write",
     "lint": "tslint -c tslint.json './spec/*.ts'",
-    "test": "npx jasmine"
+    "test": "npx ts-node node_modules/tape/bin/tape ./spec/*.spec.ts"
   },
   "keywords": [
     "selenium-webdriver",
-    "es6modules",
+    "es6 modules",
     "typescript",
     "ts-node",
-    "jasmine",
+    "tape",
     "boilerplate",
-    "example"
+    "example",
+    "e2e"
   ],
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "license": "MIT",
@@ -44,5 +43,8 @@
       "prettier --write",
       "git add"
     ]
+  },
+  "dependencies": {
+    "tape": "latest"
   }
 }
