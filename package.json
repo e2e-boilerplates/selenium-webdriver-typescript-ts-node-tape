@@ -5,7 +5,7 @@
   "devDependencies": {
     "@types/node": "12.12.26",
     "@types/selenium-webdriver": "4.0.6",
-    "@types/tape": "4.2.33",
+    "@types/tape": "4.2.34",
     "chromedriver": "79.0.3",
     "husky": "4.2.1",
     "lint-staged": "10.0.7",
