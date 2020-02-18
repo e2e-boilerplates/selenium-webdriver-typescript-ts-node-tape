@@ -1,7 +1,6 @@
 import { Builder, By } from "selenium-webdriver";
 import chrome from "selenium-webdriver/chrome";
 import test from "tape";
-
 import "chromedriver";
 
 const options = new chrome.Options();
