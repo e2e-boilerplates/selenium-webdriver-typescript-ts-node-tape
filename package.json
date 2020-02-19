@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "selenium-webdriver end-to-end test automation boilerplate, using TypeScript, ts-node and Tape.",
   "devDependencies": {
-    "@types/node": "12.12.27",
+    "@types/node": "12.12.28",
     "@types/selenium-webdriver": "4.0.8",
     "@types/tape": "4.2.34",
     "chromedriver": "79.0.3",
