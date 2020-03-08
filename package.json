@@ -1,9 +1,9 @@
 {
-  "author": "",
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "dependencies": {
     "tape": "latest"
   },
-  "description": "selenium-webdriver end-to-end test automation boilerplate, using TypeScript, ts-node and Tape.",
+  "description": "selenium webdriver end-to-end test automation boilerplate.",
   "devDependencies": {
     "@types/node": "12.12.29",
     "@types/selenium-webdriver": "4.0.9",
@@ -24,6 +24,11 @@
     }
   },
   "keywords": [
+    "boilerplate",
+    "e2e",
+    "e2e tests",
+    "example",
+    "integration test",
     "selenium",
     "selenium-webdriver",
     "tape",
