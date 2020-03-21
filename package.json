@@ -12,7 +12,7 @@
     "@types/node": "12.12.30",
     "@types/selenium-webdriver": "4.0.9",
     "@types/tape": "4.2.34",
-    "chromedriver": "79.0.3",
+    "chromedriver": "^80.0.1",
     "husky": "4.2.3",
     "lint-staged": "10.0.8",
     "prettier": "1.19.1",
