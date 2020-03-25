@@ -1,6 +1,8 @@
+/* tslint:disable:no-submodule-imports */
 import { Builder, By } from "selenium-webdriver";
-import chrome from "selenium-webdriver/chrome";
-import test from "tape";
+// tslint:disable-next-line:no-var-requires
+const chrome = require("selenium-webdriver/chrome");
+import * as test from "tape";
 
 import "chromedriver";
 
@@ -9,7 +11,7 @@ const chromeOptions = process.env.GITHUB_ACTIONS ? options.headless() : options;
 
 let browser: any;
 
-test("setup", async t => {
+test("setup", async (t) => {
   setTimeout(() => {
     browser = new Builder()
       .forBrowser("chrome")
@@ -20,7 +22,7 @@ test("setup", async t => {
   }, 2000);
 });
 
-test("Should be on Sandbox", async t => {
+test("Should be on Sandbox", async (t) => {
   const title = await browser.getTitle();
   const header = await browser.findElement(By.css("h1")).getText();
 
@@ -29,7 +31,7 @@ test("Should be on Sandbox", async t => {
   t.end();
 });
 
-test("teardown", async t => {
+test("teardown", async (t) => {
   browser.quit();
   t.end();
 });
