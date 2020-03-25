@@ -14,7 +14,7 @@
   "devDependencies": {
     "@types/node": "13.9.3",
     "@types/selenium-webdriver": "4.0.9",
-    "@types/tape": "^4.2.34",
+    "@types/tape": "4.2.34",
     "husky": "4.2.3",
     "lint-staged": "10.0.9",
     "prettier": "2.0.2",
