@@ -1,0 +1,12 @@
+| referrer                                                                                       | count | uniques |
+| :--------------------------------------------------------------------------------------------- | :---- | :------ |
+| /e2e-boilerplate/selenium-webdriver-typescript-ts-node-tape                                    | 9     | 1       |
+| /e2e-boilerplate/selenium-webdriver-typescript-ts-node-tape/actions                            | 3     | 1       |
+| /e2e-boilerplate/selenium-webdriver-typescript-ts-node-tape/runs/533208329                     | 3     | 1       |
+| /e2e-boilerplate/selenium-webdriver-typescript-ts-node-tape/blob/master/tsconfig.json          | 2     | 1       |
+| /e2e-boilerplate/selenium-webdriver-typescript-ts-node-tape/actions/runs/61145993              | 1     | 1       |
+| /e2e-boilerplate/selenium-webdriver-typescript-ts-node-tape/actions/runs/62548479              | 1     | 1       |
+| /e2e-boilerplate/selenium-webdriver-typescript-ts-node-tape/actions/runs/62941255              | 1     | 1       |
+| /e2e-boilerplate/selenium-webdriver-typescript-ts-node-tape/blob/master/.github/runs_status.md | 1     | 1       |
+| /e2e-boilerplate/selenium-webdriver-typescript-ts-node-tape/blob/master/package.json           | 1     | 1       |
+| /e2e-boilerplate/selenium-webdriver-typescript-ts-node-tape/blob/master/spec/sandbox.spec.ts   | 1     | 1       |
