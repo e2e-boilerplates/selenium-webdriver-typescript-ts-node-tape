@@ -13,7 +13,7 @@
   },
   "description": "Selenium-WebDriver end-to-end test automation boilerplate. Using TypeScript, ts-node and Tape.",
   "devDependencies": {
-    "@types/node": "13.11.1",
+    "@types/node": "13.13.0",
     "@types/selenium-webdriver": "4.0.9",
     "@types/tape": "4.2.34",
     "husky": "4.2.5",
