@@ -11,7 +11,7 @@ const chromeOptions = process.env.GITHUB_ACTIONS ? options.headless() : options;
 
 let browser: any;
 
-test("setup", async (t) => {
+test("setup", (t) => {
   setTimeout(() => {
     browser = new Builder()
       .forBrowser("chrome")
@@ -26,6 +26,7 @@ test("Should be on Sandbox", async (t) => {
   const title = await browser.getTitle();
   const header = await browser.findElement(By.css("h1")).getText();
 
+  t.plan(2);
   t.equal(title, "Sandbox");
   t.equal(header, "Sandbox");
   t.end();
