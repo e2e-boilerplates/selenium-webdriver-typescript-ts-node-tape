@@ -2,7 +2,7 @@
     
 # Selenium-WebDriver Boilerplate
     
-Selenium-WebDriver end-to-end test automation boilerplate, Using TypeScript, ts-node and Tape.
+Selenium-WebDriver end-to-end test automation boilerplate, Using [TypeScript](https://www.typescriptlang.org), [ts-jest](https://github.com/TypeStrong/ts-node) and [Tape](https://github.com/substack/tape).
     
 ## Getting Started
     	1. git clone git@github.com:e2e-boilerplate/selenium-webdriver-typescript-ts-node-tape.git
