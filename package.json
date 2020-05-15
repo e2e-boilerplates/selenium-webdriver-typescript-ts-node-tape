@@ -39,7 +39,8 @@
     "selenium-webdriver",
     "tape",
     "ts-node",
-    "typescript"
+    "typescript",
+    "webdriver manager"
   ],
   "license": "MIT",
   "lint-staged": {
