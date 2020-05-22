@@ -4,7 +4,7 @@
     "url": "https://github.com/e2e-boilerplate/selenium-webdriver-typescript-ts-node-tape/issues"
   },
   "dependencies": {
-    "chromedriver": "83.0.0",
+    "chromedriver": "81.0.0",
     "selenium-webdriver": "4.0.0-alpha.7",
     "tape": "5.0.0",
     "ts-node": "8.10.1",
@@ -46,7 +46,6 @@
   "license": "MIT",
   "lint-staged": {
     "*.{js,ts,json,md}": [
-      "tslint --fix",
       "prettier --write"
     ]
   },
