@@ -17,7 +17,7 @@
     "@types/selenium-webdriver": "4.0.9",
     "@types/tape": "4.13.0",
     "husky": "4.2.5",
-    "lint-staged": "10.2.8",
+    "lint-staged": "10.2.9",
     "prettier": "2.0.4",
     "tslint": "6.1.2",
     "tslint-config-prettier": "1.18.0",
