@@ -4,16 +4,16 @@
     "url": "https://github.com/e2e-boilerplate/selenium-webdriver-typescript-ts-node-tape/issues"
   },
   "dependencies": {
-    "chromedriver": "87.0.7",
+    "chromedriver": "90.0.4430.24",
     "selenium-webdriver": "4.0.0-beta.1",
     "tape": "5.2.2",
     "ts-node": "9.1.1",
-    "typescript": "4.2.3",
+    "typescript": "4.2.4",
     "webdriver-manager": "12.1.8"
   },
   "description": "Selenium-WebDriver end-to-end test automation boilerplate. Using TypeScript, ts-node and Tape.",
   "devDependencies": {
-    "@types/node": "13.13.46",
+    "@types/node": "13.13.50",
     "@types/selenium-webdriver": "4.0.11",
     "@types/tape": "4.13.0",
     "husky": "4.3.8",
